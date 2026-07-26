@@ -1,0 +1,14 @@
+Security test report
+
+Replay test: PASSED
+The gateway rejected a repeated message counter.
+
+Tamper test: PASSED
+The gateway rejected modified ciphertext because authentication tag verification failed.
+
+Associated data binding test: PASSED
+The gateway rejected changed associated data because the authentication tag no longer matched.
+
+Conclusion:
+The implemented prototype correctly rejected replayed packets, modified
+ciphertext and changed associated data.

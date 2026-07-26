@@ -1,0 +1,4 @@
+algorithm,messages,payload_size_setting,avg_plaintext_bytes,avg_ciphertext_bytes,avg_overhead_bytes,session_setup_time_ms,avg_encryption_time_ms,avg_decryption_time_ms,p95_encryption_time_ms,p95_decryption_time_ms,total_wall_clock_ms,total_cpu_time_ms,peak_memory_kb
+Plaintext baseline,1000,64,74.99,74.99,0.0,0.0,0.0417,0.0109,0.0642,0.0178,56.3594,55.7175,74.4355
+AES-GCM,1000,64,74.99,90.99,16.0,0.7163,0.0684,0.014,0.1009,0.0219,85.2789,84.8605,137.459
+ChaCha20-Poly1305,1000,64,74.99,90.99,16.0,0.0313,0.0687,0.0148,0.1089,0.0258,85.7086,85.242,136.4844
